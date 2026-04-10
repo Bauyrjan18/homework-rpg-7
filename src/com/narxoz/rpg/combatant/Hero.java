@@ -10,7 +10,7 @@ public class Hero {
     private CombatStrategy strategy;
     private boolean lowHpTriggered = false;
 
-    public Hero(String name, int hp, int attackPower, int defense) {
+    public Hero(String name, int hp, int attackPower, int defense, CombatStrategy strategy) {
         this.name = name;
         this.hp = hp;
         this.maxHp = hp;
